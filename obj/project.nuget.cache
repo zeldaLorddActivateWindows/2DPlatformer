@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hGGdFz5A6Fo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\benja\\OneDrive - HTL Vöcklabruck\\Neuer Ordner (2)\\Neuer Ordner\\SWP\\2DPlatformer\\2DPlatformer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benja\\.nuget\\packages\\raylib-cs\\7.0.1\\raylib-cs.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
