@@ -17,12 +17,11 @@ namespace _2DPlatformer
         }
         public override void DeleteObstacle() { }
 
-        public FieryObstacle(float height, float width, bool isGrounded)
+        public FieryObstacle(int height, int width, bool isGrounded)
         {
             Height = height;
             Width = width;
             IsGrounded = isGrounded;
-            Children.Add(this);
         }
     }
 }

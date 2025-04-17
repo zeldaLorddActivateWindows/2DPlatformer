@@ -8,8 +8,8 @@ namespace _2DPlatformer
 {
     internal interface IObstacle
     {
-        public float Height { get; }
-        public float Width { get; }
+        public int Height { get; }
+        public int Width { get; }
         public bool IsGrounded { get;  }
         public string? Modifier { get; set; } 
 

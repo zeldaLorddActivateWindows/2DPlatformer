@@ -8,6 +8,7 @@ namespace _2DPlatformer
 {
     internal class Field
     {
+        public List <Obstacle> obstacles = new List <Obstacle> ();
         public string? Name { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }

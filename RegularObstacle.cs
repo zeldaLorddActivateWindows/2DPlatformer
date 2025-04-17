@@ -15,12 +15,11 @@ namespace _2DPlatformer
         }
         public override void DeleteObstacle() { }
 
-        public RegularObstacle(float height, float width, bool isGrounded)
+        public RegularObstacle(int height, int width, bool isGrounded)
         {
             Height = height; 
             Width = width;
             IsGrounded = isGrounded;
-            Children.Add(this);
         }
     }
 }

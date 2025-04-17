@@ -8,9 +8,8 @@ namespace _2DPlatformer
 {
     internal abstract class Obstacle : IObstacle
     {
-        public List<Obstacle> Children { get; set; }
-        public float Height { get; set; }
-        public float Width { get; set; }
+        public int Height { get; set; }
+        public int Width { get; set; }
         public bool IsGrounded { get; set; }
         public virtual string? Modifier { get; set; }
 
